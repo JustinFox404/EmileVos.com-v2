@@ -1,0 +1,16 @@
+$primary: #af0000;
+@mixin device-sm {
+  @media (min-width: 840px) {
+    @content
+  }
+}
+@mixin device-md {
+  @media (min-width: 950px) {
+    @content
+  }
+}
+@mixin device-lg {
+  @media (min-width: 1370px) {
+    @content
+  }
+}

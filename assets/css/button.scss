@@ -1,0 +1,19 @@
+@import "vars";
+
+.btn {
+  min-width: 120px;
+  line-height: 50px;
+  font-size: 40px;
+  background-color: $primary;
+  display: block;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  padding: 0 1.5rem;
+  transition: 0.2s;
+  text-decoration: none;
+  &:hover, &:focus {
+    transition: 0.2s;
+    background-color: lighten($primary, 8);
+  }
+}
